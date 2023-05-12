@@ -16,7 +16,8 @@ public class VariablesEx {
 		
 		
 		System.out.println("the ticket prize is "+ticketPrize);
-		System.out.println("mathematical pi value is"+pi);
+		System.out.println("mathematical pi value is "+pi);
+		System.out.println("Sno. is "+Srno);
 		System.out.println("gender is "+gender);
 		System.out.println("name is " +name);
 		
