@@ -15,10 +15,10 @@ public class FibonacciSeries {
 		
 		for(int i=2;i<10;++i)
 		{
-			int c=a+b;
+			int c=a+b+i;
 			System.out.println(c);
-			a=b;
-			b=c;
+			
+			
 			
 		}
 		

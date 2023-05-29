@@ -15,6 +15,13 @@ public class ClassProgram {
 		System.out.println(obj1.num);
 		
 		obj1.multTwoNumbers(10,10);
+		
+		/*
+		//Accessing the default member from outside of the package(oops). wont able to access because is outside its package(oops)
+		A1 obj1= new A1();
+		*/
+		
+		
 	}
 
 }

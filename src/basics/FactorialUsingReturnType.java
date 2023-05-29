@@ -1,6 +1,13 @@
 package basics;
 
 public class FactorialUsingReturnType {
+	
+	long factorialResult;
+	public FactorialUsingReturnType()
+	{
+		factorialResult=1;
+		System.out.println("Constructor is called when the object is created. It wis the first method that will be executed");
+	}
 
 	/*
 //accessmodifier returnType mathodName(arguments)
@@ -10,7 +17,7 @@ public class FactorialUsingReturnType {
 	*/
 	public long factorial(int factorialNumber)
 	{
-		long factorialResult=1;
+		//long factorialResult=1;
 		for(int i=1;i<=factorialNumber;i++)
 		{
 			factorialResult= factorialResult*i;
