@@ -12,7 +12,7 @@ public class finalVariable
 	final int rollno=9;
 	void display()
 	{
-		// rollno=10;
+		//rollno=10;
 		System.out.println(rollno);
 	}
 

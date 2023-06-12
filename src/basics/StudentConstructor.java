@@ -19,6 +19,8 @@ public class StudentConstructor {
 	{
 		id=i;
 		name=n;
+		//System.out.println("The id of the student is "+id+" and the name is "+name);
+
 		
 	}
 	
