@@ -2,7 +2,7 @@ package oops;
 
 class vehicledetails
 {
-	static String vehicleName;
+	String vehicleName;
 	int price;
 	static String vehicleType;
 	
@@ -17,18 +17,18 @@ public class StaticVariable {
 	public static void main(String[] args) 
 	{
 		vehicledetails obj=new vehicledetails();
-		//obj.vehicleName="Activa";
+		obj.vehicleName="Activa";
 		obj.price=89000;
 		//obj.vehicleType="2 wheeler";
 		
 		vehicledetails obj1=new vehicledetails();
-		//obj1.vehicleName="Honda";
-		obj.price=90000;
-		//obj.vehicleType="2 wheeler";
+		obj1.vehicleName="Honda";
+		obj1.price=90000;
+		//obj1.vehicleType="2 wheeler";
 		
-		vehicledetails.vehicleName="BMW";
+		//vehicledetails.vehicleName="BMW";
 		
-		vehicledetails.vehicleType="4 wheeler";
+		//vehicledetails.vehicleType="4 wheeler";
 		
 		obj.Displaydata();
 		obj1.Displaydata();

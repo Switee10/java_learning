@@ -25,7 +25,8 @@ public class StringEx {
 		
 		// to explain string immutability (Once the value is assigned to a string object,  its value cannot be changed)
 		
-		String str1 = new String("Hello");
+		String str1 = new String("HEllo");
+	
 		String str2=str1.concat("world");
 		System.out.println(str1);
 		System.out.println(str2);
@@ -33,7 +34,7 @@ public class StringEx {
 		String str3=new String(" WELCOME ");
 		String str4=str3.concat("TO JAVA");
 		System.out.println(str4);
-
+		
 		
 
 	}

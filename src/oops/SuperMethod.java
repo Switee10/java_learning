@@ -20,13 +20,14 @@ class Maruthi extends Car1
 
 	void displayColor()
 	{
+		super.displayColor();
 		System.out.println("The car color in child class is "+carColor);
 	}
 	
-	void getAllCarData()
+	//void getAllCarData()
 	{
-		displayColor();
-		super.displayColor();
+	//	displayColor();
+	//	super.displayColor();
 	}
 }
 
@@ -35,8 +36,8 @@ public class SuperMethod {
 	public static void main(String[] args)
 	{
 		Maruthi mar = new Maruthi();
-		mar.getAllCarData();
-
+		//mar.getAllCarData();
+		mar.displayColor();
 	}
 
 }

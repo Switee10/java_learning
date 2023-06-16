@@ -13,7 +13,6 @@ class vehiclespeed
 		vehiclespeed=120;
 		System.out.println("instance block");
 		
-		
 	}
 	static
 	{
@@ -27,7 +26,6 @@ public class StaticInstanceBlock {
 	{
 		vehiclespeed v=new vehiclespeed();
 		
-
 	}
 
 }

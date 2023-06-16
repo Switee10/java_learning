@@ -6,6 +6,7 @@ class A
 	
 	private void display()
 	{
+		int a =20;
 		System.out.println("Displaying the value of a-->"+a);
 	}
 }

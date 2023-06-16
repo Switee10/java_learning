@@ -3,15 +3,15 @@ package oops;
 //super() can be used to invoke immediate parent class constructor.
 //If we dont call the parent class constructor explicitly in the child class, child class constructor would call the parent class constructor implicitly
 
-class Car2
+class Car11
 {
-	Car2()
+	Car11()
 	{
 		System.out.println("Parent class constructor");
 	}
 }
 
-class Hyundai extends Car2
+class Hyundai extends Car11
 {
 	Hyundai()
 	{

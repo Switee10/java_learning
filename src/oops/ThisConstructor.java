@@ -2,15 +2,15 @@ package oops;
 
 //this() can be used to invoke current class constructor.
 
-class car11
+class car12
 {
-	car11()
+	car12()
 	{
 		
 		System.out.println("This is default constructor");
 		
 	}
-	car11(String Name)
+	car12(String Name)
 	{
 		this();
 		System.out.println("Car name is "+Name);
@@ -21,7 +21,7 @@ public class ThisConstructor {
 
 	public static void main(String[] args)
 	{
-		car11 c=new car11("Indica");
+		car12 c=new car12("Indica");
 
 	}
 
