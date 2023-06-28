@@ -6,7 +6,8 @@ public class Evenodd {
     public static void main(String[] args) {
     	//int v=0;;
         Scanner obj = new Scanner(System.in);
-        int n = (int) obj.nextInt();
+        int n=obj.nextInt();
+       // int v=parseInt(n);
        //int v;
         //if(n==v)
         {
